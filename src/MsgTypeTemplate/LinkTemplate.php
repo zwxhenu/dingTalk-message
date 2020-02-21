@@ -1,5 +1,7 @@
 <?php
 /**
+ * 链接消息模板
+ *
  * Created by PhpStorm.
  * User: user
  * Date: 2019/11/27

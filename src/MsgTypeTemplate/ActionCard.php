@@ -1,5 +1,7 @@
 <?php
 /**
+ * 卡片文件消息
+ *
  * Created by PhpStorm.
  * User: user
  * Date: 2019/11/27

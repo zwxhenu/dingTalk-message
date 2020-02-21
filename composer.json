@@ -1,4 +1,27 @@
 {
     "name": "zwxhenu/dingtalk-message",
-    "require": {}
+    "description": "dingTalk Push Remind Message",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zwxhenu",
+            "email": "zangliterature@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.27",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DingTalkMessage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DingTalkMessage\\Tests\\": "tests/"
+        }
+    }
 }
